@@ -60,3 +60,23 @@ print(f"city data {city_data}")
 #  del dictionary_name["key"]
 del city_data["AQI"]
 print(f"city data {city_data}")
+
+print(4+5)
+print(4-5)
+print(4*5)
+print(4/5)
+print(4//5)
+print(4%5)
+print(4**5)
+
+print(4>5)
+print(4<5)
+print(4>=5)
+print(4<=5)
+print(4==5)
+print(4!=5)
+
+z=5
+x=10
+x+=z
+print(x)

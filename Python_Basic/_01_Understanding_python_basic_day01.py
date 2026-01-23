@@ -23,7 +23,7 @@ print(f"weekly temp is {weekly_temp}")
 weekly_temp.remove(2)
 print(f"update 1 {weekly_temp}")
 
-#list_name.append(value) to remove the element 
+#list_name.append(value) to add the element at last
 weekly_temp.append(2)
 print(f"update 2 {weekly_temp}")
 
@@ -80,3 +80,4 @@ z=5
 x=10
 x+=z
 print(x)
+

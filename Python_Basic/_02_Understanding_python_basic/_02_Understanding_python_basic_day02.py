@@ -1,25 +1,28 @@
-# # # # # # # print ("Enter the age of the person:")
-# # # # # # # age = input()
-# # # # # # # print ("The age of the person is:", age)
+# Taking user input
+print ("Enter the age of the person:")
+age = input()
+print ("The age of the person is:", age)
 
-# # # # # # # if int(age) >18 and int(age) < 24:
-# # # # # # #     print("The person is eligible to vote")
-# # # # # # # else :
-# # # # # # #     print("The person is not eligible to vote")
-# # # # # # # # logical operators
-# # # # # # # print(not 4<3)
-# # # # # # # print(4<3 or 4>3)
-# # # # # # # print(4<3 and 4>3)
+# if else statement
+if int(age) >18 and int(age) < 24:
+    print("The person is eligible to vote")
+else :
+    print("The person is not eligible to vote")
 
-# # # # # # # # identity operator
-# # # # # # # a="a"
-# # # # # # # print(4 is 4)
-# # # # # # # print(4 is not 4)
-# # # # # # # x=4
-# # # # # # # print(type(x))
-# # # # # # # str(x) # converted to string
-# # # # # # # print(type(str(x)))
-# # # # # # # print(str(x).isdigit())
+# logical operators
+print(not 4<3)
+print(4<3 or 4>3)
+print(4<3 and 4>3)
+
+# identity operator
+a="a"
+print(4 is 4)
+print(4 is not 4)
+x=4
+print(type(x))
+str(x) # converted to string
+print(type(str(x)))
+print(str(x).isdigit())
 
 # # # # # # # #membership operator
 # # # # # # # print("a" in "prashant")

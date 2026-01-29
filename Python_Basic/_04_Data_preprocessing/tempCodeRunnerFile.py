@@ -1,3 +1,2 @@
-int(projects_df.isnull())
-
-# print(projects_df.isnull().sum())
+print(energy_df.isnull())
+# print(energy_df.isnull().sum())
